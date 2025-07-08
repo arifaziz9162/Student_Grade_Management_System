@@ -53,9 +53,8 @@ All actions are logged for traceability, and errors are handled with custom exce
 ## 🔧 Project Structure
 
 StudentGradeManager/
-│
-├── main.py                        # Main application file (GUI + logic)
-├── student_management.log         # (Generated) Log file for action errors
-├── README.md                      # Project documentation
-├── requirements.txt               # Dependency file (none needed here)
-├── student_management.csv         # (Generated) Exported student data
+- main.py                       
+- student_management.log         
+- README.md                      
+- requirements.txt               
+- student_management.csv         
