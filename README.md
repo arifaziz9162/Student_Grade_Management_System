@@ -53,8 +53,8 @@ All actions are logged for traceability, and errors are handled with custom exce
 ## 🔧 Project Structure
 
 StudentGradeManager/
-- main.py                       
-- student_management.log         
-- README.md                      
-- requirements.txt               
-- student_management.csv         
+├── main.py                       
+├── student_management.log        
+├── README.md                   
+├── requirements.txt               
+├── student_management.csv  
