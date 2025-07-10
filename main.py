@@ -155,7 +155,7 @@ class StudentApp:
             logger.error(e)
             messagebox.showerror("Error", str(e))
         except Exception as e:
-            logger.error("Error occurred during update student.")
+            logger.error("Error occurred during update student", exc_info=True)
             messagebox.showerror("Error", str(e))
         self.clear_entries()
 
